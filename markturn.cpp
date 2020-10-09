@@ -8,7 +8,7 @@
 #include "convert.hpp"
 #include <curl/curl.h>
 
-int main(int argc, char* argv) {
+int main(int argc, char* argv[]) {
 
     // command-line parsing
     CLI::App app{"Convert among data formats"};
